@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF65908524952D7500D52FFA /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF65908424952D7500D52FFA /* beach.jpg */; };
 		FFC0FB5024912B0C00E462F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC0FB4F24912B0C00E462F7 /* AppDelegate.swift */; };
 		FFC0FB5224912B0C00E462F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC0FB5124912B0C00E462F7 /* SceneDelegate.swift */; };
 		FFC0FB5424912B0C00E462F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC0FB5324912B0C00E462F7 /* ContentView.swift */; };
 		FFC0FB5624912B0D00E462F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC0FB5524912B0D00E462F7 /* Assets.xcassets */; };
 		FFC0FB5924912B0D00E462F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC0FB5824912B0D00E462F7 /* Preview Assets.xcassets */; };
 		FFC0FB5C24912B0D00E462F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC0FB5A24912B0D00E462F7 /* LaunchScreen.storyboard */; };
+		FFD29E64249A50ED003B48E9 /* BeachDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD29E63249A50ED003B48E9 /* BeachDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF65908424952D7500D52FFA /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
 		FFC0FB4C24912B0C00E462F7 /* learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC0FB4F24912B0C00E462F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFC0FB5124912B0C00E462F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		FFC0FB5824912B0D00E462F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFC0FB5B24912B0D00E462F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFC0FB5D24912B0D00E462F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD29E63249A50ED003B48E9 /* BeachDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF65908224952D5400D52FFA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF65908424952D7500D52FFA /* beach.jpg */,
+				FF65908324952D6700D52FFA /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FF65908324952D6700D52FFA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		FFC0FB4324912B0C00E462F7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +76,7 @@
 		FFC0FB4E24912B0C00E462F7 /* learn */ = {
 			isa = PBXGroup;
 			children = (
+				FF65908224952D5400D52FFA /* Assets */,
 				FFC0FB4F24912B0C00E462F7 /* AppDelegate.swift */,
 				FFC0FB5124912B0C00E462F7 /* SceneDelegate.swift */,
 				FFC0FB5324912B0C00E462F7 /* ContentView.swift */,
@@ -63,6 +84,7 @@
 				FFC0FB5A24912B0D00E462F7 /* LaunchScreen.storyboard */,
 				FFC0FB5D24912B0D00E462F7 /* Info.plist */,
 				FFC0FB5724912B0D00E462F7 /* Preview Content */,
+				FFD29E63249A50ED003B48E9 /* BeachDetail.swift */,
 			);
 			path = learn;
 			sourceTree = "<group>";
@@ -136,6 +158,7 @@
 				FFC0FB5C24912B0D00E462F7 /* LaunchScreen.storyboard in Resources */,
 				FFC0FB5924912B0D00E462F7 /* Preview Assets.xcassets in Resources */,
 				FFC0FB5624912B0D00E462F7 /* Assets.xcassets in Resources */,
+				FF65908524952D7500D52FFA /* beach.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +171,7 @@
 			files = (
 				FFC0FB5024912B0C00E462F7 /* AppDelegate.swift in Sources */,
 				FFC0FB5224912B0C00E462F7 /* SceneDelegate.swift in Sources */,
+				FFD29E64249A50ED003B48E9 /* BeachDetail.swift in Sources */,
 				FFC0FB5424912B0C00E462F7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
